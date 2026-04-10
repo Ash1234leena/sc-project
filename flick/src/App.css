@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+/* Navbar */
+h1 {
+  text-align: center;
+  padding: 15px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+}
+
+/* Post Card */
+.post {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Username */
+.post h3 {
+  margin: 10px;
+}
+
+/* Image */
+.post img {
+  width: 100%;
+}
+
+/* Actions */
+.actions {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Caption */
+.caption {
+  padding: 0 10px 10px;
+}
+
+/* Comments */
+.comment {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+/* Input box */
+.input-box {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.input-box button {
+  padding: 10px;
+  border: none;
+  background: none;
+  color: #0095f6;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Stories */
+.stories {
+  display: flex;
+  overflow-x: auto;
+  background: white;
+  padding: 10px;
+}
+
+.story {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
